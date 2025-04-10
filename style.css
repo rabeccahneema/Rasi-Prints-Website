@@ -250,7 +250,42 @@ font-size:large;
     width: 200px;
    
 }
-
+.galleryHead{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 100px;
+}
+.galleryContent{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.galleryImage{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom:50px ;
+}
+.galleryImage img{
+    border-radius: 10px;
+    width :300px;
+    box-shadow: 0 4px 8px rgb(172, 171, 171);
+}
+.bigImage{
+   display: flex; 
+   justify-content: center;
+   padding-bottom: 90px;
+   
+}
+.bigImage img{
+    width: 800px;
+    box-shadow: 0 4px 8px rgb(121, 118, 118);
+    border-radius: 20px;
+   
+}
 
      
      
