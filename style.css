@@ -314,13 +314,16 @@ font-size:large;
 
 }
 .contact{
-   box-shadow: 0 4px 8px rgb(83, 83, 83);
+   box-shadow: 0 8px 16px rgb(83, 83, 83);
    margin-left: 10%;
    margin-right: 60%;
-   padding-right: 30px;
+   padding-right: 80px;
    padding-bottom: 40px;
    position: absolute;
    background-color: white;
+   margin-top: 3%;
+   border-radius: 10px;
+   padding-left: 30px;
 }
 .contact h1{
     padding-left: 20px;
@@ -333,7 +336,23 @@ font-size:large;
 .mapcontact{
     display: flex;
 }
+.allInfo{
+    display: flex;
+    background-color: rgb(61, 59, 59);
+    color: white;
+    justify-content: space-around;
+    padding-top: 100px;
+    
+}
 
+
+footer{
+    background-color: rgb(61, 54, 54);
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
      
      
 
